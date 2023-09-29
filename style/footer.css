@@ -1,0 +1,89 @@
+@import url(../style/fonts.css);
+
+.footer {
+  background: #322E41;
+  padding-top: 37px;
+  padding-bottom: 57px;
+}
+
+.footer__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__left {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media (max-width: 610px) {
+  .footer__right {
+    margin-top: 30px;
+  }
+}
+
+.footer__left input {
+  padding: 8px 0 8px 8px;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 6px;
+  color: #9B9B9B;
+}
+
+.footer__left textarea {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 8px 0 0 8px;
+  height: 86px;
+  border-radius: 6px;
+  margin: 10px 0;
+  resize: none;
+}
+
+.footer__btn {
+  background: #544294;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 6px;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer__right-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer__right-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer__right-link:hover {
+  color: #D47300;
+}
+
+.second__list {
+  margin-left: 68px;
+}
+
+.asd {
+  padding-top: 50px;
+  padding-left: 100px;
+  height: 100px;
+}

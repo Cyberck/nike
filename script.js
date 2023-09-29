@@ -8,8 +8,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
     let btn = document.querySelector('.menu-btn'),
         btnSpan = document.querySelector('.menu-btn span'),
-        navigation = document.querySelector('.header__navigation-list'),
-        headerTop = document.querySelector('.header__top')
+        navigation = document.querySelector('.nav__list'),
+        headerTop = document.querySelector('.nav__top')
         
 
 
@@ -20,12 +20,5 @@ window.addEventListener('DOMContentLoaded', function () {
         headerTop.classList.toggle('active')
     })
 
-    navigationItems.forEach(navItem => {
-        navItem.addEventListener('click', () => {
-            btn.classList.remove('active')
-            btnSpan.classList.remove('active')
-            navigation.classList.remove('active')
-            headerTop.classList.remove('active')
-        })
-    })
+
 })
