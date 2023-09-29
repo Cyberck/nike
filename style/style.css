@@ -31,10 +31,6 @@ header {
   transition: all .5s ease;
 }
 
-header.sticky {
-  background: #59a5ec;
-  padding: 10px 100px;
-}
 
 .header__content {
   display: flex;
@@ -65,6 +61,14 @@ header.sticky {
 .nav {
   position: relative;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav.sticky {
+  background: #59a5ec;
+  padding: 10px 100px;
 }
 
 .nav__top {
